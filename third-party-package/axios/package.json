@@ -1,0 +1,14 @@
+{
+  "name": "axios",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "server": "node server.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3"
+  }
+}
