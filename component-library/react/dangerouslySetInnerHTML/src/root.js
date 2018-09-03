@@ -1,13 +1,13 @@
 import React, {Fragment} from 'react';
 import ReactDOM from "react-dom";
 
-const Root = () => {
+const Root = (props) => {
     return (
         <Fragment>
-            <div className="text" dangerouslySetInnerHTML={{__html: "<p>本日は晴天</p>"}}></div>
+            <div className="text" dangerouslySetInnerHTML={{__html: props.html}}></div>
         </Fragment>
     );
 };
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(<Root />, rootElement);
+ReactDOM.render(<Root html={"<h1>本日は晴天</h1>"}/>, rootElement);
