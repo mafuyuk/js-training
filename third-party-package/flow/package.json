@@ -7,6 +7,8 @@
     "flow": "flow"
   },
   "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-flow": "^6.23.0",
     "flow-bin": "^0.80.0"
   }
 }
