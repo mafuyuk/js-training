@@ -1,5 +1,5 @@
 # JavaScript Training
-あ
+
 ### ディレクトリ構成
 ```bash
 ├── standard-package
